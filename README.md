@@ -3,7 +3,12 @@
 <img src="/gambar3.jpg" width="100%">
 yang saya lingkari adalah grouping
 
-jangan lupa jalankan php artisan migrate:fresh --seed atau bisa juga import database
+jangan lupa jalankan
+instalasi
+-composer update
+-copy .env.example menjjadi .env
+-php artisan key:generate
+-php artisan migrate:fresh --seed atau bisa juga import database
 
 untuk database sql nya saya taroh sejajar dengan foldedr app
 
